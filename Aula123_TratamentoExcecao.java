@@ -1,7 +1,5 @@
 package Seção_10_Tratamento_de_exceções;
 
-import javax.naming.LimitExceededException;
-
 public class Aula123_TratamentoExcecao {
 
 	private int number;
@@ -13,11 +11,11 @@ public class Aula123_TratamentoExcecao {
 
 	}
 
-	public Aula123_TratamentoExcecao(int number, String holder, double balance, double withdrawLimit) {
+	public Aula123_TratamentoExcecao(int number, String holder, double balance, double dailywithdrawLimit) {
 		this.number = number;
 		this.holder = holder;
 		this.balance = balance;
-		this.withdrawLimit = withdrawLimit;
+		this.dailywithdrawLimit = dailywithdrawLimit;
 	}
 
 	public int getNumber() {
